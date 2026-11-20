@@ -85,6 +85,8 @@
         --rose-tint: #fbe3e9;
         color: var(--ink);
       }
+      .site-header { background: #ffffff; text-align: center; padding: 26px 16px 20px; }
+      .site-logo { width: min(320px, 68vw); height: auto; }
       .hero { background: #ffffff; border-bottom: 1px solid var(--line); padding-top: 40px; }
       @media (min-width: 760px) { .hero { padding-top: 48px; } }
       .band-sky { background: #ffffff; border-bottom: 1px solid var(--line); padding-bottom: 44px; }
@@ -747,6 +749,11 @@
 
     <!-- ============ BARRA FIJA (fondo; el mismo logo de la portada se achica hasta aquí) ============ -->
     <div class="sticky-logo-bar" id="stickyLogoBar" aria-hidden="true"></div>
+
+    <!-- ============ LOGO ============ -->
+    <header class="site-header">
+      <img class="site-logo" src="logo-pph-v18.png" alt="Play Paradise Hub — Soft Play Rentals" />
+    </header>
 
     <!-- ============ HERO ============ -->
     <header class="hero">
